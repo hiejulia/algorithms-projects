@@ -1,4 +1,6 @@
 # bloom filter 
+<a href="https://imgur.com/iFWM61z"><img src="https://i.imgur.com/iFWM61z.png" title="source: imgur.com" /></a>
+
 - test if sets contains element 
 - fit in memory 
 - Given a big set S = {x1, x2, ..., xn}, the Bloom filter is a probabilistic, fast, and space-efficient cache builder; it basically approximates the set membership operation:
@@ -10,7 +12,7 @@ False positives: x ∉ S, but the answer is x ∈ S
 False negatives: x ∈ S, but the answer is x ∉ S
 
 - probability of falsse positive : 
-
+<a href="https://imgur.com/LUhjghW"><img src="https://i.imgur.com/LUhjghW.png" title="source: imgur.com" /></a>
 
 The following mathematical formulas can be used to shape the optimal Bloom filter:
 
@@ -37,7 +39,7 @@ k = round((m / n) * log(2));
     - set bits in the bit array 
 
 - example : 
-
+<a href="https://imgur.com/U0plEVE"><img src="https://i.imgur.com/U0plEVE.png" title="source: imgur.com" /></a>
 `
 private BitSet bitset; // the array of bits
 private static final Charset CHARSET = StandardCharsets.UTF_8;
@@ -58,11 +60,11 @@ public void add(byte[] bytes) {
   numberOfAddedElements++;
 }
 `
-
+<a href="https://imgur.com/ag1eQ6W"><img src="https://i.imgur.com/ag1eQ6W.png" title="source: imgur.com" /></a>
 
 ## BL in Guava lib 
-- 
 
+<a href="https://imgur.com/VaZpfBz"><img src="https://i.imgur.com/VaZpfBz.png" title="source: imgur.com" /></a>
 
 ## BL in Map Reduce 
 - build BL out of relation and test value for membership using built BL 
@@ -75,3 +77,12 @@ public void add(byte[] bytes) {
 - cassandra use bloom filter
 - Guava Library 
 - map reduce framework 
+- routing table lookup 
+- online traffic measurement 
+- peer to peer system 
+- cooperative caching 
+- firewall design 
+- intrusion detection 
+- bioinformatics 
+- database query processing 
+- stream computing 

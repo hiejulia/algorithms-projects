@@ -3,7 +3,7 @@ package com.bloomfilter;
 import java.util.List;
 
 /**
- * POC how Bloom Filter construct 
+ * POC how Bloom Filter construct
  */
 public class Main {
 

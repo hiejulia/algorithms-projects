@@ -40,3 +40,28 @@ Bitonic sort, Radix sort, Merge sort with GPU parallel
 + Mini-firewall (transducer)
 + 
 
+]
+
+
+
+## TODO 
+
+- GPU algorithms 
+- network algorithms
+    - routing, switching, packet, etc algorithm 
+    - peer to peer 
+- deep learning algorithms 
+- circuit algorithms 
+- blockchain algorithm 
+- routing table lookup 
+- online traffic measurement 
+- peer to peer system 
+- cooperative caching 
+- firewall design 
+    - cisco ios firewall 
+- signal procesing algorithms 
+
+- intrusion detection 
+- bioinformatics 
+- database query processing 
+- stream computing 
