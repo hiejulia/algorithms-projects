@@ -1,0 +1,6 @@
+4:30,30,Price Loader
+3:00,15,Load transaction
+1:30,60,Web refresh
+19:15,15,Batch report
+21:00,30,Nightly dump
+23:00,15,Test insert
