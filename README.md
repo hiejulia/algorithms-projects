@@ -4,6 +4,17 @@ Run algorithms and analyze in Threads environment
 + Hashing 
 
 
+### Job Schedulers using Binary Search tree
+- BST is not allowed duplicate jobs 
+- Get sorted data which key is time 
+- Insertion with restrictions to allow non overlap 
+- Insert - Remove - Search operations in BST
+
+
+
+
+
+
 ### Machine learning algorithms 
 - Graph-Based Semi-Supervised Learning 
     - The Isomap algorithm and the multidimensional scaling approach
